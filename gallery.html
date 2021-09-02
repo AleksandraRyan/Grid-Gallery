@@ -10,91 +10,128 @@
       integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=WindSong:wght@500&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/lightbox.min.css" />
     <link rel="stylesheet" href="css/style.css" />
     <title>Grid Gallery</title>
   </head>
   <body class="gallery-bg">
-    <div class="row gx-3 gy-3 p-5">
-      <div class="col-md-4">
-        <a
-          href="/img/img1.jpg"
-          target="_blank"
-          data-lightbox="img-gallery"
-          data-title="City Centre/ Reidi tee"
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Aleksandra Ryan Photography</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
         >
-          <img src="/img/img1.jpg" alt="" />
-        </a>
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <div class="col-md-4">
-        <a
-          href="/img/img2.jpg"
-          target="_blank"
-          data-lightbox="img-gallery"
-          data-title="Järve Sporttracks"
-        >
-          <img src="/img/img2.jpg" alt="" />
-        </a>
-      </div>
-      <div class="col-md-4">
-        <a
-          href="/img/img7.jpg"
-          target="_blank"
-          data-lightbox="img-gallery"
-          data-title="Pirita Beach"
-        >
-          <img src="/img/img7.jpg" alt="" />
-        </a>
-      </div>
-      <div class="col-md-4">
-        <a
-          href="/img/img4.jpg"
-          target="_blank"
-          data-lightbox="img-gallery"
-          data-title="Viimsi"
-        >
-          <img src="/img/img4.jpg" alt="" />
-        </a>
-      </div>
-      <div class="col-md-4">
-        <a
-          href="/img/img5.jpg"
-          target="_blank"
-          data-lightbox="img-gallery"
-          data-title="Pirita"
-        >
-          <img src="/img/img5.jpg" alt="" />
-        </a>
-      </div>
-      <div class="col-md-4">
-        <a
-          href="/img/img6.jpg"
-          target="_blank"
-          data-lightbox="img-gallery"
-          data-title="Old Town"
-        >
-          <img src="/img/img6.jpg" alt="" />
-        </a>
-      </div>
-      <div class="col-md-6">
-        <a
-          href="/img/img3.jpg"
-          target="_blank"
-          data-lightbox="img-gallery"
-          data-title="Elva Lake"
-        >
-          <img src="/img/img3.jpg" alt="" />
-        </a>
-      </div>
-      <div class="col-md-6">
-        <a
-          href="/img/img8.jpg"
-          target="_blank"
-          data-lightbox="img-gallery"
-          data-title="Lasnamäe"
-        >
-          <img src="/img/img8.jpg" alt="" />
-        </a>
+    </nav>
+    <div class="container">
+      <div class="row gx-3 gy-3 pt-3">
+        <div class="col-md-4">
+          <a
+            href="/img/img1.jpg"
+            target="_blank"
+            data-lightbox="img-gallery"
+            data-title="City Centre/ Reidi tee"
+          >
+            <img src="/img/img1.jpg" alt="" />
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a
+            href="/img/img2.jpg"
+            target="_blank"
+            data-lightbox="img-gallery"
+            data-title="Järve Sporttracks"
+          >
+            <img src="/img/img2.jpg" alt="" />
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a
+            href="/img/img7.jpg"
+            target="_blank"
+            data-lightbox="img-gallery"
+            data-title="Pirita Beach"
+          >
+            <img src="/img/img7.jpg" alt="" />
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a
+            href="/img/img4.jpg"
+            target="_blank"
+            data-lightbox="img-gallery"
+            data-title="Viimsi"
+          >
+            <img src="/img/img4.jpg" alt="" />
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a
+            href="/img/img5.jpg"
+            target="_blank"
+            data-lightbox="img-gallery"
+            data-title="Pirita"
+          >
+            <img src="/img/img5.jpg" alt="" />
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a
+            href="/img/img6.jpg"
+            target="_blank"
+            data-lightbox="img-gallery"
+            data-title="Old Town"
+          >
+            <img src="/img/img6.jpg" alt="" />
+          </a>
+        </div>
+        <div class="col-md-6">
+          <a
+            href="/img/img3.jpg"
+            target="_blank"
+            data-lightbox="img-gallery"
+            data-title="Elva Lake"
+          >
+            <img src="/img/img3.jpg" alt="" />
+          </a>
+        </div>
+        <div class="col-md-6">
+          <a
+            href="/img/img8.jpg"
+            target="_blank"
+            data-lightbox="img-gallery"
+            data-title="Lasnamäe"
+          >
+            <img src="/img/img8.jpg" alt="" />
+          </a>
+        </div>
       </div>
     </div>
     <script>

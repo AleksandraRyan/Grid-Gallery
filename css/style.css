@@ -4,23 +4,58 @@
   box-sizing: border-box;
 }
 
-/* body {
-  overflow-x: hidden;
-} */
-
-.gallery-bg {
+.main-bg {
   background: linear-gradient(
-    109.5deg,
-    rgb(13, 11, 136) 9.4%,
-    rgb(86, 255, 248) 78.4%
+    67.7deg,
+    rgb(252, 185, 125) -0.9%,
+    rgb(245, 231, 106) 22.8%,
+    rgb(160, 236, 208) 50.3%,
+    rgb(57, 178, 209) 75.5%,
+    rgb(183, 174, 193) 100.2%
   );
 }
-
-.main-bg {
-  background: url('/img/img33.jpg') no-repeat center center/cover;
-  height: 450px;
+.gallery-bg {
+  background: linear-gradient(
+    93.1deg,
+    rgb(238, 254, 183) 19.1%,
+    rgb(169, 254, 222) 53.9%,
+    rgb(90, 222, 255) 92%
+  );
 }
 
 img {
   max-width: 100%;
+}
+
+.img-fluid {
+  margin-top: -190px;
+}
+
+.navbar-brand {
+  font-family: 'WindSong', cursive;
+  font-size: 30px;
+  color: rgb(252, 252, 76) !important;
+}
+
+.navbar-brand:hover {
+  color: rgb(187, 187, 176) !important;
+}
+
+nav {
+  font-family: 'WindSong', cursive;
+  font-size: 20px;
+}
+
+.nav-link:hover {
+  color: rgb(252, 252, 76) !important;
+}
+
+@media (max-width: 500px) {
+  .navbar-brand {
+    font-size: 23px;
+  }
+
+  .img-fluid {
+    margin-top: 0;
+  }
 }
