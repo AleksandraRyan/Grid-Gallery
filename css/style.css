@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body {
+  overflow-x: hidden;
+} */
+
+.gallery-bg {
+  background: linear-gradient(
+    109.5deg,
+    rgb(13, 11, 136) 9.4%,
+    rgb(86, 255, 248) 78.4%
+  );
+}
+
+.main-bg {
+  background: url('/img/img33.jpg') no-repeat center center/cover;
+  height: 450px;
+}
+
+img {
+  max-width: 100%;
+}
