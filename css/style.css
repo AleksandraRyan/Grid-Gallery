@@ -4,15 +4,21 @@
   box-sizing: border-box;
 }
 
-.main-bg {
+.overflow {
+  overflow-y: hidden;
+}
+
+body {
   background: linear-gradient(
-    67.7deg,
-    rgb(252, 185, 125) -0.9%,
-    rgb(245, 231, 106) 22.8%,
-    rgb(160, 236, 208) 50.3%,
-    rgb(57, 178, 209) 75.5%,
-    rgb(183, 174, 193) 100.2%
-  );
+      67.7deg,
+      rgb(252, 185, 125) -0.9%,
+      rgb(245, 231, 106) 22.8%,
+      rgb(160, 236, 208) 50.3%,
+      rgb(57, 178, 209) 75.5%,
+      rgb(183, 174, 193) 100.2%
+    )
+    no-repeat;
+  height: 100vh;
 }
 .gallery-bg {
   background: linear-gradient(
@@ -23,12 +29,8 @@
   );
 }
 
-img {
-  max-width: 100%;
-}
-
-.img-fluid {
-  margin-top: -190px;
+.hero-img {
+  margin-top: -150px;
 }
 
 .navbar-brand {
@@ -55,7 +57,8 @@ nav {
     font-size: 23px;
   }
 
-  .img-fluid {
+  .hero-img {
     margin-top: 0;
+    display: none;
   }
 }
